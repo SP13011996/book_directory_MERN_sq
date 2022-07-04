@@ -12,7 +12,9 @@
 
 https://immense-ravine-73292.herokuapp.com/
 
-JSON FOR POST/UPDATING
+# JSON FOR POST/UPDATING
+
+```json
 {
 bookname:[String],
 author:{
@@ -21,7 +23,7 @@ authorage:[Number]
 },
 genre:[String],
 price:[Number],
-dateofPublication:[Date],
+dateofPublication:[Date(yyyy/mm/dd)],
 chapters:[Array]
-
 }
+```
